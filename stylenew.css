@@ -1,0 +1,342 @@
+.logo2{
+    background:url('logo2.png');
+    width: 1600px;
+    height: 110px;
+    left: 26%;
+    margin: 0.1%;
+}
+.top{
+	width:100%;
+	background-color:#f6e70f !important;
+	border-bottom:2px solid #f0f0f0;
+}
+.top div{
+	width:1200px;
+	color:#fff;
+	background-color:#2FA5EB !important;
+	font-family:calibri;
+	padding:10px;
+	text-align:right;
+}
+.logo{
+	width:100%;
+	border-bottom:2px solid #c5bdbd;
+    font-size: 15px;
+}
+
+.newlol{
+
+ /* margin-left: 0%;
+    margin-right: 40%;
+    background-color: salmon;*/
+
+    margin-left: -56%;
+    margin-right: -4%;
+    background-color: salmon
+}    
+
+
+/*
+.container{
+    
+    left:10;
+    top:10;
+    width: 43%;
+    height:270px;
+    animation: animate 16s ease-in-out infinite;
+    background-size: cover;
+    max-height: 230px;
+    max-width: 50px;
+}
+.outer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background:rgba(0,0,0,0)
+}
+.details{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+@keyframes animate{
+    0%,100%{
+        background-image: url(imh1.jpg);
+    }
+    25%{
+        background-image: url(img2.jpg);
+    }
+    50%{
+        background-image: url(img3.jpg);
+    }
+    75%{
+        background-image: url(img4.jpg);
+    }
+}
+
+*/
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+*{
+
+	font-family: 'Comfortaa', cursive;
+
+	margin: 0;
+
+	padding: 0;
+
+	box-sizing: border-box;
+
+}
+
+.container{
+
+	max-width: 1200px;
+
+	margin: 0 auto;
+
+}
+
+.container > h1{
+
+	padding: 20px 0;
+
+}
+
+.cart{
+
+	display: flex;
+
+}
+
+.products{
+
+	flex: 0.75;
+
+}
+
+.product{
+
+	display: flex;
+
+	width: 100%;
+
+	height: 200px;
+
+	overflow: hidden;
+
+	border: 1px solid silver;
+
+	margin-bottom: 20px;
+
+}
+
+.product:hover{
+
+	border: none;
+
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+
+	transform: scale(1.01);
+
+}
+
+.product > img{
+
+	width: 300px;
+
+	height: 200px;
+
+	object-fit: cover;
+
+}
+
+.product > img:hover{
+
+	transform: scale(1.04);
+
+}
+
+.product-info{
+
+	padding: 20px;
+
+	width: 100%;
+
+	position: relative;
+
+}
+
+.product-name, .product-price, .product-offer{
+
+	margin-bottom: 20px;
+
+}
+
+.product-remove{
+
+	position: absolute;
+
+	bottom: 20px;
+
+	right: 20px;
+
+	padding: 10px 25px;
+
+	background-color: green;
+
+	color: white;
+
+	cursor: pointer;
+
+	border-radius: 5px;
+
+}
+
+.product-remove:hover{
+
+	background-color: white;
+
+	color: green;
+
+	font-weight: 600;
+
+	border: 1px solid green;
+
+}
+
+.product-quantity > input{
+
+	width: 40px;
+
+	padding: 5px;
+
+	text-align: center;
+
+}
+
+.fa{
+
+	margin-right: 5px;
+
+}
+
+.cart-total{
+
+	flex: 0.25;
+
+	margin-left: 20px;
+
+	padding: 20px;
+
+	height: 240px;
+
+	border: 1px solid silver;
+
+	border-radius: 5px;
+
+}
+
+.cart-total p{
+
+	display: flex;
+
+	justify-content: space-between;
+
+	margin-bottom: 30px;
+
+	font-size: 20px;
+
+}
+
+.cart-total a{
+
+	display: block;
+
+	text-align: center;
+
+	height: 40px;
+
+	line-height: 40px;
+
+	background-color: tomato;
+
+	color: white;
+
+	text-decoration: none;
+
+}
+
+.cart-total a:hover{
+
+	background-color: red;
+
+}
+
+@media screen and (max-width: 700px){
+
+	.remove{
+
+		display: none;
+
+	}
+
+	.product{
+
+		height: 150px;
+
+	}
+
+	.product > img{
+
+		height: 150px;
+
+		width: 200px;
+
+	}
+
+	.product-name, .product-price, .product-offer{
+
+		margin-bottom: 10px;
+
+	}
+
+}
+
+@media screen and (max-width: 900px){
+
+	.cart{
+
+		flex-direction: column;
+
+	}
+
+	.cart-total{
+
+		margin-left: 0;
+
+		margin-bottom: 20px;
+
+	}
+
+}
+
+@media screen and (max-width: 1220px){
+
+	.container{
+
+		max-width: 95%;
+
+	}
+
+}
+

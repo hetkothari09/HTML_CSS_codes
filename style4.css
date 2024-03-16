@@ -1,0 +1,26 @@
+html{
+    background-image: url(image/form3.png);
+}
+
+form{
+    color: red;
+    font-family: forte;
+    font-weight: bold;
+    font-size: 30px;
+}
+h1{
+    text-align:center;
+    color: hsl(147, 100%, 50%);
+     font-family: forte ;
+     font-size: 40px;
+}
+.opt{
+    color: red;
+}
+.new{
+    color:hsl(147, 100%, 50%);
+}
+p{
+    text-align:center;
+    color: white;
+}
